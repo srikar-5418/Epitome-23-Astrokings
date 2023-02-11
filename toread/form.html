@@ -1,0 +1,49 @@
+<style>
+    .query-form{
+  max-width:300px;
+  margin: 2rem auto;
+  border:2px solid #e74c;
+  padding: 2rem;
+  label{
+    display: block;
+    padding:1rem 0.5rem;
+    font-size:14px;
+  }
+  input,textarea{
+    display:block;
+    width:100%;
+    border:2px solid #298089;
+    padding:5rem;
+    border-radius:4px;
+  }
+  
+}
+#btn{
+  border:0;
+  background:#343050;
+  display:flex;
+  padding:.5rem;
+  color:white;
+  margin:1rem 0;
+  width:auto;
+  text-transform:uppercase;
+  cursor:pointer;
+  &:hover{
+    backgroung:#3498d0;
+  }
+}
+</style>
+<body>
+    <h1>We Want to know about you.</h1>
+    <form class="query-form">
+      <label for="q1"> How many years have you been reading books?</label><br>
+      <input type="number" id="q1" min="0" requried><br>
+      <label for="q2"> How many Books have you read?</label><br>
+      <input type="number" id="q2" min="0" requried><br>
+      <label for="q3"> How many Books have you read?</label><br>
+      <input type="text" id="q3">
+      <input type="submit" value="Submit" id="btn">
+    </form>
+    
+   
+  </body>
